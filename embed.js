@@ -7,6 +7,10 @@
 //                                                                            //
 ////////////////////////////////////////////////////////////////////////////////
 
+
+//For the embed i am using 'Method' and not value or properties but you can use whatever that flaots your boat
+// Read discord.js documentation for more details
+
 const { RichEmbed } = require('discord.js');
 const config = require('../config/config.json'); // This will be diffrent for you
 exports.run = async (client, msg, args) => { //This will be partly diffrent to yours
